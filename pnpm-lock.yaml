@@ -1,0 +1,32 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  datatables.net:
+    specifier: ^2.0.2
+    version: 2.0.2
+  jquery:
+    specifier: ^3.7.1
+    version: 3.7.1
+  sweetalert2:
+    specifier: ^11.10.6
+    version: 11.10.6
+
+packages:
+
+  /datatables.net@2.0.2:
+    resolution: {integrity: sha512-uQM+s1oXhpTajUw5DCxarpfAtQJMh0MKFCLZMCc+UWLWPg8ipe6L2zgDMbRC8n9UCwGVpHOwUYlQu2JU1/PhSg==}
+    dependencies:
+      jquery: 3.7.1
+    dev: false
+
+  /jquery@3.7.1:
+    resolution: {integrity: sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==}
+    dev: false
+
+  /sweetalert2@11.10.6:
+    resolution: {integrity: sha512-CINZPLZXZRSZqSOE7H7j1F7X8e8O1kLOiXPmtJn1DYxvXsKBr3d16d90+IcwTTs7dJww20h8r8QIxIwsLGX+6A==}
+    dev: false
