@@ -1,0 +1,18 @@
+{
+  "name": "tracking-money",
+  "version": "1.0.0",
+  "description": "Tracking Money",
+  "main": "index.js",
+  "scripts": {
+    "bundlejs": "browserify src/js/main.js > dist/main.min.js",
+    "minifyjs": "uglifyjs dist/main.min.js -c -m -o dist/main.min.js",
+    "build": "npm run bundlejs && npm run minifyjs"
+  },
+  "author": "Muhammad Rayhan Faridh",
+  "license": "ISC",
+  "dependencies": {
+    "datatables.net-bs5": "^2.0.2",
+    "jquery": "^3.7.1",
+    "sweetalert2": "^11.6.13"
+  }
+}
