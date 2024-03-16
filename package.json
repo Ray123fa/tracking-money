@@ -4,15 +4,15 @@
   "description": "Tracking Money",
   "main": "index.js",
   "scripts": {
-    "bundlejs": "browserify src/js/main.js > dist/main.min.js",
-    "minifyjs": "uglifyjs dist/main.min.js -c -m -o dist/main.min.js",
+    "bundlejs": "browserify src/js/script.js > dist/js/main.js",
+    "minifyjs": "uglifyjs dist/js/main.js -c -m -o dist/js/main.js",
     "build": "npm run bundlejs && npm run minifyjs"
   },
   "author": "Muhammad Rayhan Faridh",
   "license": "ISC",
   "dependencies": {
-    "datatables.net-bs5": "^2.0.2",
+    "datatables.net": "^2.0.2",
     "jquery": "^3.7.1",
-    "sweetalert2": "^11.6.13"
+    "sweetalert2": "^11.10.6"
   }
 }
